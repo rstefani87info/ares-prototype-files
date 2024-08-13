@@ -1,11 +1,26 @@
-{ 
-  "name": "@ares/prototype-files",  
-  "version": "1.0.0",  
-  "description": "",  
-  "main": "index.js",  
-  "scripts": { 
-    "test": "echo \"Error: no test specified\" && exit 1"  
-  },  
-  "author": "Roberto Stefani",  
-  "license": "MIT"  
-} 
+{
+  "name": "@ares/prototype-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstefani87info/ares-prototype-files.git"
+  },
+
+  "author": "Roberto Stefani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rstefani87info/ares-prototype-files/issues"
+  },
+  "homepage": "https://github.com/rstefani87info/ares-prototype-files#readme",
+  "dependencies": {
+    "@ares/core": "github:rstefani87info/ares-core#master",
+    "@ares/files": "github:rstefani87info/ares-files#master"
+  }
+}
