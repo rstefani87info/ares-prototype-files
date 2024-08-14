@@ -3,7 +3,7 @@
 */ 
 
 import * as filesUtility from '@ares/files';
-import * as asyncConsole from '@ares/core/console.js';
+import {asyncConsole}  from '@ares/core/console.js';
 import {addFileFunctionsToPrototype} from '@ares/core/prototype.js';
 
 /**
