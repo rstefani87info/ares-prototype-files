@@ -20,5 +20,8 @@
   "dependencies": {
     "@ares/core": "workspace:^",
     "@ares/files": "workspace:^"
+  },
+  "devDependencies": {
+    "@ares/scd": "workspace:^"
   }
 }
